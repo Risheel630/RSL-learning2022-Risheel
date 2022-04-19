@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/hogwarts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="0.2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="hogwarts"
+        android:textColor="@color/teal_200"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/hogwarts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hogwarts" />
+
+    <ImageView
+        android:id="@+id/potter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hogwarts"
+        app:layout_constraintEnd_toStartOf="@+id/hermione"/>
+
+    <ImageView
+        android:id="@+id/hermione"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_2"
+        app:layout_constraintEnd_toStartOf="@+id/ron"
+        app:layout_constraintStart_toEndOf="@+id/potter"
+        app:layout_constraintTop_toBottomOf="@+id/hogwarts" />
+
+    <ImageView
+        android:id="@+id/ron"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hogwarts"
+        app:layout_constraintStart_toEndOf="@+id/hermione"/>
+
+    <TextView
+        android:id="@+id/harry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Harry potter"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/potter" />
+
+    <TextView
+        android:id="@+id/granger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Hermione Granger"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/harry" />
+    <TextView
+        android:id="@+id/weasley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Ron weasley"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/granger"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/weasley"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:text="Subjects :"
+        android:layout_marginTop="25dp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="history of magic"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Creatures"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Divination"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Defence Against the Dark Arts"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Potions"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Transfiguration"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Charms"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="stronomy and Herbology"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="Physics"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:text="English"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
