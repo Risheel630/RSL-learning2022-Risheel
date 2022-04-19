@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/hogwarts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hogwarts"
+            android:textSize="30sp"
+            android:textColor="@color/teal_200"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/potter"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/hogwarts"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hogwarts"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/potter"
+        android:text="Albus  Potter"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/potter"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_border"
+        android:gravity="bottom|center"
+        android:hint="Phone Number"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/date_of_birth"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/phone_number"
+        android:layout_alignParentStart="true"
+        android:layout_marginVertical="40dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edit_border"
+        android:gravity="bottom|center"
+        android:hint="Date of birth"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_of_birth"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Cancel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_of_birth"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/cancel"
+        android:gravity="center"
+        android:text="Submit" />
+
+</RelativeLayout>
