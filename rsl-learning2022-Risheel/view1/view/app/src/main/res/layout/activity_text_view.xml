@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="50sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you!!"
+        android:textColor="@color/teal_200"
+        android:textSize="80px"/>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/black">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="In the frame layout!!"
+            android:textColor="@color/teal_200"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:padding="20px"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="very long text and so on and here is the example for that !!"
+        android:textColor="@color/teal_200"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="80px"
+        android:paddingLeft="100px"
+        android:background="@color/button_color"/>
+
+</LinearLayout>
