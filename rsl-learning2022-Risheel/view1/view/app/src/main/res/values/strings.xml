@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">view1</string>
+    <string name="text_button">Text</string>
+    <string name="edit_button">Edit</string>
+    <string name="image_button">Image</string>
+    <string name="button_list">Buttons</string>
+</resources>
