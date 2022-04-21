@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robota_text"
+        android:textSize="20sp"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="This is a TextView"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:hint="alphanumeric"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        android:inputType="textCapCharacters"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:hint="numeric"
+        android:inputType="number"/>
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/like"
+        android:scaleType="centerInside"
+        android:background="@color/grey"
+        android:tintMode="src_in"/>
+
+
+</LinearLayout>
