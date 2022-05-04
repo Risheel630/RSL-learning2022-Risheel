@@ -49,14 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        SharedPreferences data = getSharedPreferences("User Data", MODE_PRIVATE);
-        for (int i = 0; i < list.size(); i++) {
-            Boolean category = data.getBoolean(list.get(i).getMovieCategory(), false);
-            if (category) {
-                Log.d("MOM", "OKOKOKOKOK");
-                recommendedList.add(list.get(i));
-            }
-        }
         RequestQueue requestQueue;
         requestQueue = Volley.newRequestQueue(this);
         JsonObjectRequest jsonObjectRequest1 = new JsonObjectRequest(Request.Method.GET, "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.filmfestivals.com%2Fchannel%2Ffilm%2Fanimation%2Ffeed",
@@ -121,5 +113,17 @@ public class MainActivity extends AppCompatActivity {
                 flag = !flag;
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        SharedPreferences data = getSharedPreferences("User Data", MODE_PRIVATE);
+        for (int i = 0; i < list.size(); i++) {
+            Boolean category = data.getBoolean(list.get(i).getMovieCategory(), false);
+            if (category) {
+                recommendedList.add(list.get(i));
+            }
+        }
     }
 }
