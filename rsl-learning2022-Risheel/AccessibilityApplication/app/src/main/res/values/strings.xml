@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AccessibilityApplication</string>
+    <string name="music_icon">Music Icon</string>
+    <string name="read_me">Read me</string>
+    <string name="song_name">Song name</string>
+    <string name="song_name_value">Lose Yourself</string>
+    <string name="song_artist">Song Artist</string>
+    <string name="song_artist_value">Eminem</string>
+    <string name="song_details">Song details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="launch_accessibility_scanner_fragment">Launch Accessibility Scanner Fragment</string>
+    <string name="launch_talkback_fragment">Launch Talkback Fragment</string>
+    <string name="counter_description_text">Don\'t Replay</string>
+</resources>
