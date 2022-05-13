@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/question_list_view.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/question_list_view.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_question_list.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/fragment_question_list.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/score_activity.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/score_activity.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/question_view.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/question_view.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_activity.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/fragment_activity.xml"
+    },
+    {
+        "merged": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/splash.xml",
+        "source": "/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/res/layout/splash.xml"
+    }
+]
