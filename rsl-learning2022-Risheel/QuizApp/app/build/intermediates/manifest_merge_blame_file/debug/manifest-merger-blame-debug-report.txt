@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.quizapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:7:5-36:19
+14        android:allowBackup="true"
+14-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /Users/risheelbhalani/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.QuizApp" >
+22-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:13:9-45
+23        <activity
+23-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:14:9-22:20
+24            android:name="com.example.quizapp.Splash"
+24-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:15:13-35
+25            android:exported="true" >
+25-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:23:9-26:20
+33            android:name="com.example.quizapp.MainActivity"
+33-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:24:13-41
+34            android:exported="true" >
+34-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:25:13-36
+35        </activity>
+36        <activity
+36-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:27:9-29:20
+37            android:name="com.example.quizapp.QuestionActivity"
+37-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:27:19-51
+38            android:exported="true" >
+38-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:28:13-36
+39        </activity>
+40        <activity
+40-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:30:9-33:20
+41            android:name="com.example.quizapp.AnsweredActivity"
+41-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:30:19-51
+42            android:exported="true" >
+42-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:31:13-36
+43        </activity>
+44        <activity
+44-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:34:9-35:38
+45            android:name="com.example.quizapp.ScoreFragment"
+45-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:34:19-48
+46            android:exported="true" />
+46-->/Users/risheelbhalani/work/RSL/rsl-learning2022-Risheel/QuizApp/app/src/main/AndroidManifest.xml:35:13-36
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.quizapp.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/risheelbhalani/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/risheelbhalani/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/risheelbhalani/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59
+60        <uses-library
+60-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+61            android:name="androidx.window.extensions"
+61-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+63        <uses-library
+63-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+64            android:name="androidx.window.sidecar"
+64-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0] /Users/risheelbhalani/.gradle/caches/transforms-3/194105470fda0354aaff7bde4c998be5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+66    </application>
+67
+68</manifest>
